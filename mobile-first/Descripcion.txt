@@ -1,0 +1,8 @@
+Diseño mobile first
+
+
+1. Analisis de proyecto
+
+Para realizar el diseño se tomaron los siguientes wireframes construidos con Figma.
+
+El proyecto es una landing page informativa
