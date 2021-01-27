@@ -1,8 +1,15 @@
-Diseño mobile first
+﻿Diseño mobile first
 
 
-1. Analisis de proyecto
+1. ANÁLISIS DEL PROYECYO
 
-Para realizar el diseño se tomaron los siguientes wireframes construidos con Figma.
+    El proyecto Batabit es una landing page informativa. Para realizar el diseño se tomaron los siguientes wireframes construidos con Figma. https://www.figma.com/file/sMmlQaZldfDcLERYYWe6h4/Bata-Bit?node-id=3%3A240
 
-El proyecto es una landing page informativa
+
+2. ESTRUCTURA INICIAL
+    header
+    4 secciones
+    footer
+
+3. ESTILOS
+    Se usa metodologia basada en BEM para los estilos (no es BEM)
