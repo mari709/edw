@@ -35,7 +35,7 @@ header {
     justify-content: center;
     width: 100%;
     min-width: 320px;
-    height: 350px;
+    height: 400px;
     text-align: center;
     background: linear-gradient(207.8deg, var(--warm-black) 16.69%, var(--bitcoin-orange) 100%);
 }
