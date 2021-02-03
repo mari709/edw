@@ -348,7 +348,8 @@ section.main-plans-container {
 }
 .plans-container--slider {
     display: flex;
-    /* gap: 50px; 65% compatible a la fecha*/ 
+    justify-content: center;
+    /* gap: 50px; */
     height: 316px;
     overflow-x: scroll;
     overscroll-behavior-x: contain;
@@ -367,10 +368,10 @@ section.main-plans-container {
     position: relative;
     scroll-snap-align: center;
     width: 70%;
-    min-width: 230px;
+    min-width: 190px;
     max-width: 300px;
     height: 247px;
-    margin: 50px 20px 0;
+    margin: 50px 10px 0;
     padding: 0 15px;
     background-color: var(--just-white);
     border-radius: 8px;
