@@ -326,3 +326,138 @@ main {
     color: var(--just-white);
     line-height: 2.6rem;    
 }
+section.main-plans-container {
+    background-color: #e5e5ee;
+}
+.plans--title {
+    text-align: center;
+}
+.plans--title h2 {
+    padding-top: 50px;
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: var(--black);
+}
+.plans--title p {
+    padding-top: 30px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: #757575;
+}
+.plans-container--slider {
+    display: flex;
+    /* gap: 50px; 65% compatible a la fecha*/ 
+    height: 316px;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+
+
+}
+.plans-container--slider::-webkit-scrollbar {
+    background-color: var(--soft-orange);
+    height: 3px;
+  }
+  .plans-container--slider::-webkit-scrollbar-thumb {
+    background-color: var(--bitcoin-orange);
+  }
+.plans-container--card {
+    position: relative;
+    scroll-snap-align: center;
+    width: 70%;
+    min-width: 230px;
+    max-width: 300px;
+    height: 247px;
+    margin: 50px 20px 0;
+    padding: 0 15px;
+    background-color: var(--just-white);
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px 0px rgba(89, 73, 30, 0.16);
+    text-align: center;
+}
+.of {
+    overflow: hidden;
+}
+.recommended {
+    position: absolute;
+    width: 14rem;
+    transform: rotate(45deg);
+    height: 20px;
+    right: -32px;    
+    top: 30px;
+    font-size: 1.2rem;
+    color: var(--just-white);
+    background-color: var(--bitcoin-orange);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.month, .forever {
+    position: absolute;
+    width: 120px;
+    height: 31px;
+    left: calc(50% - 120px/2);
+    top: -15px;
+    font-size: 1.2rem;
+    color: var(--just-white);
+    background-color: var(--bitcoin-orange);
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.plan-card--title {
+    z-index: 3;
+    padding-top: 30px;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    font-weight: 500;
+    color: black;
+}
+.plan-card--price {
+    padding: 5px 0;
+    position: relative;
+    font-size: 5.2rem;
+    line-height: 5.3rem;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.plan-card--price span {
+    position: absolute;
+    top: 20px;
+    left: calc(50% - 60px);
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    font-weight: 300;
+    vertical-align: text-top;
+    letter-spacing: -0.8px;
+}
+.plan-card--saving {
+    color: #757575;
+    font-size: 1.2rem;
+}
+.plan-card--ca {
+    margin-top: 1em;
+    width: 150px;
+    height: 48px;
+    background-color: #fafbf7;
+    border: 2px solid var(--bitcoin-orange);
+    border-radius: 8px;
+    font-size: 1.4rem;
+    font-weight: bold;
+    line-height: 1.8rem;
+    color: black ;
+    cursor: pointer;
+    outline: none;
+
+}
+
+.plan-card--ca span {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url("../assets/icons/orange-right-arrow.svg");
+    vertical-align: text-bottom;
+}

@@ -4,7 +4,7 @@
 1. ANÁLISIS DEL PROYECYO
 
     El proyecto Batabit es una landing page informativa. Para realizar el diseño se tomaron los siguientes wireframes construidos con Figma. https://www.figma.com/file/sMmlQaZldfDcLERYYWe6h4/Bata-Bit?node-id=3%3A240
-
+        https://www.figma.com/file/sMmlQaZldfDcLERYYWe6h4/Bata-Bit
 
 2. ESTRUCTURA INICIAL
     header
