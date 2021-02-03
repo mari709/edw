@@ -7,7 +7,7 @@
 }
 .main-exchange-container h2, .product-detail--title h2, .bitcoin-img-container h2, .plans--title h2{
     font-size: 3rem;
-}
+} 
 .main-tables-container {
     display: flex;
     overflow: hidden;

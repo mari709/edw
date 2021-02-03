@@ -4,16 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Batabit</title>
+    <meta name="description" content="Somos Batabit, la próxima revolución en el intercambio de criptomoneda">
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter:wght@300;500&display=swap" rel="stylesheet">
-    <link href="css/styles.css" rel="stylesheet">    
+    <link href="css/styles.css" rel="stylesheet">
+    <link href="css/tablet.css" rel="stylesheet" media="screen and (min-width: 734px)">        
+    <link href="css/desktop.css" rel="stylesheet" media="screen and (min-width: 1024px)">
+    <link rel="shortcut icon" href="./assets/icons/batata.svg" type="image/x-icon">
+  
 </head>
+
+
 <body>
     <header>
-        <img src="./assets/imgs/logo.svg" alt="batatabit">
+        <img class="header-logo" src="./assets/imgs/logo.svg" alt="batatabit">
         <div class="header--title-container">
             <h1>La próxima revolución en el intercambio de criptomonedas</h1>
             <p>Batabit te ayuda a navegar entre los diferentes precios y tendencias.</p>
-            <a href="" class="header--button">Conoce Nuestros Planes <span></span></a>
+            <a href="#plans" class="header--button">Conoce Nuestros Planes <span></span></a>
         </div>
     </header>
     <main>
@@ -50,35 +57,33 @@
                         <p><strong>Actualizado:</strong> 26/01/2021 23:45<span id="fechaActual"></span></p>
                      </div>
                 </div>
-            </section> 
-        <section class="main-tables-container">
-        <div class="main-comission-table"> 
-            <h3 class="comission-table--title">Comisiones</h3>
-            <div class="comission-table--container">
-                <table>
-                    <tr>
-                        <td class="table__top-left">Bitrade<span></span></td>
-                        <td class="table__top-right table__right">$12.92</td>
-                    </tr>
-                    <tr>
-                        <td>Bitpreco</td>
-                        <td class="table__right">$13.07</td>
-                    </tr>
-                    <tr>
-                        <td>Novadax</td>
-                        <td class="table__right">$13.15</td>
-                    </tr>
-                    <tr>
-                        <td class="table__bottom-left">Coinex</td>
-                        <td class="table__bottom-right table__right" >$14.96</td>
-                    </tr>
-                </table>
-            </div>
-            <div class="comission-table--date">
-                <p><strong>Actualizado:</strong> 26/01/2021 23:45<span id="fechaActual2"></span></p>
-            </div>
-        </div>
-        </section>
+                <div class="main-comission-table"> 
+                    <h3 class="comission-table--title">Comisiones</h3>
+                    <div class="comission-table--container">
+                        <table>
+                            <tr>
+                                <td class="table__top-left">Bitrade<span></span></td>
+                                <td class="table__top-right table__right">$12.92</td>
+                            </tr>
+                            <tr>
+                                <td>Bitpreco</td>
+                                <td class="table__right">$13.07</td>
+                            </tr>
+                            <tr>
+                                <td>Novadax</td>
+                                <td class="table__right">$13.15</td>
+                            </tr>
+                            <tr>
+                                <td class="table__bottom-left">Coinex</td>
+                                <td class="table__bottom-right table__right" >$14.96</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="comission-table--date">
+                        <p><strong>Actualizado:</strong> 26/01/2021 23:45<span id="fechaActual2"></span></p>
+                    </div>
+                </div>
+            </section>
         </section>
         <section class="main-product-detail">
             <span class="product-detail--batata-logo">
@@ -150,16 +155,16 @@
         </div>
     </main>
     <footer>
-        <section class="footer-left">
+        <div class="footer-left">
             <ul>
                 <li><a href="#">Linkedin</a></li>
                 <li><a href="#">Crunchbase</a></li>
                 <li><a href="#">Hackernews</a></li>
             </ul>
-        </section>
-        <section class="footer-right">
-            <img src="assets/imgs/logo-footer.svg" alt="Logo de batatbit 2021">
-        </section>
+        </div>
+        <div class="footer-right">
+            <img src="assets/imgs/logo-footer.svg" alt="Logo de batabit 2021">
+        </div>
     </footer>
 </body>
 </html>
