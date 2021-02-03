@@ -1,0 +1,22 @@
+.header-logo {
+    transform: scale(1.2);
+}
+.product-cards--container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.main-exchange-container h2, .product-detail--title h2, .bitcoin-img-container h2, .plans--title h2{
+    font-size: 3rem;
+}
+.main-tables-container {
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+}
+.main-product-detail {
+    padding-top: 40px;
+    padding-bottom: 80px;
+}
+.main-currency-table, .main-comission-table {
+    margin: 0;
+}
