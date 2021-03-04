@@ -8,3 +8,4 @@ DIBUJANDO CON CSS calabaza https://codepen.io/marprojects/pen/MWbrdmq
 
 DIBUJANDO CON CSS reto #dibujartecss https://codepen.io/marprojects/pen/PobErKB
 
+CSS GRID - GRID AREA https://codepen.io/marprojects/pen/oNYydjL
