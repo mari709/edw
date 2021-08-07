@@ -11,3 +11,5 @@ DIBUJANDO CON CSS reto #dibujartecss https://codepen.io/marprojects/pen/PobErKB
 CSS GRID - GRID AREA https://codepen.io/marprojects/pen/oNYydjL
 
 CSS PARALLAX https://mari709.github.io/escuela-desarrollo-web/parallax/
+
+MAQUETADO DE BLOG https://mari709.github.io/escuela-desarrollo-web/estructura-blog/
