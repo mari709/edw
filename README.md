@@ -14,4 +14,4 @@ CSS PARALLAX https://mari709.github.io/edw/parallax/
 
 MAQUETADO DE BLOG https://mari709.github.io/edw/estructura-blog/
 
-ANIMACIONES CSS https://mari709.github.io/edw/funny-land/
+ANIMACIONES CSS https://mari709.github.io/edw/rabbit-land/
