@@ -54,7 +54,7 @@
                         </table>
                     </div>
                     <div class="currency-table--date">
-                        <p><strong>Actualizado:</strong> 26/01/2021 23:45<span id="fechaActual"></span></p>
+                        <p><strong>Actualizado: </strong><span id="fechaActual"></span></p>
                      </div>
                 </div>
                 <div class="main-comission-table"> 
@@ -80,7 +80,7 @@
                         </table>
                     </div>
                     <div class="comission-table--date">
-                        <p><strong>Actualizado:</strong> 26/01/2021 23:45<span id="fechaActual2"></span></p>
+                        <p><strong>Actualizado: </strong><span id="fechaActual2"></span></p>
                     </div>
                 </div>
             </section>
@@ -166,5 +166,27 @@
             <img src="assets/imgs/logo-footer.svg" alt="Logo de batabit 2021">
         </div>
     </footer>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            // Función para obtener la fecha actual en formato legible
+            function obtenerFechaActual() {
+                const fecha = new Date();
+                const opciones = { year: 'numeric', month: 'long', day: 'numeric', hour: 'numeric', minute: 'numeric', timeZoneName: 'short' };
+                return fecha.toLocaleDateString('es-ES', opciones);
+            }
+
+            // Actualizar fecha en el elemento con id "fechaActual"
+            const fechaActualElement = document.getElementById('fechaActual');
+            if (fechaActualElement) {
+                fechaActualElement.textContent = obtenerFechaActual();
+            }
+
+            // Actualizar fecha en el elemento con id "fechaActual2"
+            const fechaActual2Element = document.getElementById('fechaActual2');
+            if (fechaActual2Element) {
+                fechaActual2Element.textContent = obtenerFechaActual();
+            }
+        });
+    </script>
 </body>
 </html>
