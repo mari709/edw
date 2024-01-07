@@ -7,9 +7,9 @@
 */
 :root {
     /*colores*/
-    --bitcoin-orange: #f7931a;
+    --bitcoin-orange: #a85d03;
     --soft-orange: #ffe9d5;
-    --secondary-blue: #1a9af7;
+    --secondary-blue: #1475bc;
     --soft-blue: #e7f5ff;
     --warm-black: #282623;
     --black: #201e1c;
@@ -189,7 +189,7 @@ main {
     border-radius: 0 0 0 15px;
 }
 .currency-table--container .table__bottom-right, .comission-table--container .table__bottom-right {
-    border-radius: 0 15px 0 0;
+    border-radius: 0 0 15px 0;
 }
 .currency-table--container .table__right, .comission-table--container .table__right  {
     font-size: 1.4rem;
@@ -213,12 +213,17 @@ main {
     background-image: url("../assets/icons/trending-up.svg");
 }
 .currency-table--date, .comission-table--date {
-    min-width: 164px;
-    width: max-content;
-    height: 20px;
-    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;   min-width: 164px;
+    max-width: 100%;
+    width: fit-content;
+    margin: 0 auto; /* Centrar horizontalmente */
+    margin-top: 16px;
     padding: 8px;
     border-radius: 8px;
+    overflow: hidden;
+
 }
 .currency-table--date {
     background-color: var(--soft-orange);
@@ -230,6 +235,7 @@ main {
     font-size: 1.2rem;
     line-height: 1.5rem;
     color: var(--warm-black);
+    margin: 0;
 }
 .main-product-detail {
     position: relative;
