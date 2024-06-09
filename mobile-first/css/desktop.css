@@ -1,4 +1,18 @@
 .bitcoin-img-container {
     background: url(../assets/imgs/bitcoinbaby2x-min.jpg) no-repeat center/cover;
     background-attachment: fixed;
-    }
+}
+
+
+
+.product-detail--title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-detail--card {
+    width: 45%;
+    margin: 15px;
+    
+}

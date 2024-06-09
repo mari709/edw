@@ -254,8 +254,10 @@ main {
     background-image: url("../assets/icons/batata.svg");
 }
 .product-detail--title {
-    text-align: center;
-    /*white-space: pre-wrap;*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+        /*white-space: pre-wrap;*/
 }
 .product-detail--title h2 {
     margin-top: 60px;

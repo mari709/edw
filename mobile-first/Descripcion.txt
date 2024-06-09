@@ -12,4 +12,4 @@
     footer
 
 3. ESTILOS
-    Se usa metodologia basada en BEM para los estilos (no es BEM)
+    Se usa metodologia basada en BEM para los estilos
