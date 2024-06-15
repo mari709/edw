@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafetería</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+
+<body>
+    <!--Nav -->
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Urbano Cafeterías</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+                aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#promos">Promos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#sucursales">Sucursales</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--hero -->
+    <div class="px-4 py-5 my-5 text-center">
+        <img class="d-block mx-auto mb-4" src="./images/urbano.png" alt width="300" height="auto">
+        <h1 class="display-5 fw-bold text-body-emphasis">Sabor único</h1>
+        <div class="col-lg-6 mx-auto">
+            <p class="lead mb-4">En Urbano, no solo servimos café, creamos momentos memorables. Desde el primer sorbo
+                hasta el último, cada visita a nuestras cafeterías es una invitación a disfrutar del ambiente acogedor,
+                del servicio personalizado y de una selección de bebidas que van desde el espresso perfectamente
+                equilibrado hasta lattes y capuccinos únicos.
+            </p>
+            <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+                <a href="#promos" type="button" class="btn btn-primary btn-lg px-4 gap-3">Ver promociones</a>
+                <a href="#sucursales" type="button" class="btn btn-outline-secondary btn-lg px-4">Sucursales</a>
+            </div>
+        </div>
+    </div>
+    <!-- promos -->
+    <section class="container py-5 my-5" id="promos">
+        <h2 class="p-5 text-center">Promociones</h2>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+                <div class="card h-100">
+                    <img src="./images/1.jpg" class="card-img-top" alt="promo ">
+                    <div class="card-body">
+                        <h5 class="card-title">Promo I</h5>
+                        <p class="card-text">Café + Postre</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="./images/2.jpg" class="card-img-top" alt="promo ">
+                    <div class="card-body">
+                        <h5 class="card-title">Promo II</h5>
+                        <p class="card-text">Café + Galletitas</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="./images/3.jpg" class="card-img-top" alt="promo ">
+                    <div class="card-body">
+                        <h5 class="card-title">Promo III</h5>
+                        <p class="card-text">Te + medialuna</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--sucursales -->
+    <section class="container py-5 my-5" id="sucursales">
+        <h2 class="p-5 text-center">Sucursales</h2>
+          <div class="row">
+            <div class="col-md-6">
+              <p>Visítanos en:</p>
+              <address>
+                <strong>Sucursal 1</strong><br>
+                Dirección: Calle Principal, Ciudad<br>
+                Teléfono: +123 456 789<br>
+                Email: info@cafe.com
+              </address>
+              <address>
+                <strong>Sucursal 2</strong><br>
+                Dirección: Calle Principal, Ciudad<br>
+                Teléfono: +123 456 789<br>
+                Email: info@cafe.com
+              </address>
+            </div>
+            <div class="col-md-6">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3918.387383767084!2d-74.00639398555573!3d40.71435224380468!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjnCsDQ1JzE1LjciTiA3NMKwMTAnMDUuOSJX!5e0!3m2!1sen!2sus!4v1623757264306!5m2!1sen!2sus" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+          </div>
+        </div>
+      </section>
+    <!--footer -->
+    <div class="container">
+        <footer class="py-3 my-4">
+            <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+                <li class="nav-item"><a href="#promos" class="nav-link px-2 text-muted">Promos</a></li>
+                <li class="nav-item"><a href="#sucursales" class="nav-link px-2 text-muted">Sucursales</a></li>
+            </ul>
+            <p class="text-center text-muted">© 2024 - Urbano cafeterías</p>
+        </footer>
+    </div>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
